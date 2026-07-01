@@ -1,10 +1,10 @@
 // colors
 $color-accent: #AE4C34 // terracotta
 $color-text: #403738 // charcoal
-$color-text-alt: #E3CAB9 // seashell
+$color-text-alt: #E9D3C3 // seashell
 $color-background: #D2C1B4 // sand
-$color-background-alt: #967877 // dusk
-$color-border: $color-text
+$color-background-alt: #C1A9A8 // dusk
+$color-border: var(--color-text)
 $color-selection: $color-background
 $color-selection-background: $color-text
 $link-color: var(--color-text)
@@ -17,6 +17,11 @@ $header-border-bottom-width: 1
 $hero-color: var(--color-text)
 $hero-background-color: var(--color-background)
 
+// breadcrumb
+$breadcrumb-color: $hero-color
+$breadcrumb-color-active: $hero-color
+$breadcrumb-icon-color: var(--color-text)
+
 // footer
 $footer-color: var(--color-text-alt)
 $footer-background-color: var(--color-text)
@@ -26,12 +31,24 @@ $btn-border-width: 1px
 $btn-border-radius: 0
 
 $btn-color: var(--color-text)
-$btn-background: var(--color-background)
+$btn-background: transparent
 $btn-border: $btn-border-width solid var(--color-border)
 
 $btn-hover-color: var(--color-text-alt)
 $btn-hover-background: var(--color-accent)
 $btn-hover-border: $btn-border-width solid var(--color-accent)
+
+// block cta
+$block-call-to-action-accent-background: var(--color-accent)
+$block-call-to-action-accent-color: var(--color-text-alt)
+
+$block-call-to-action-accent-button-background: transparent
+$block-call-to-action-accent-button-border: var(--border-width) solid var(--color-text-alt)
+$block-call-to-action-accent-button-color: var(--color-text)-alt
+
+$block-call-to-action-accent-button-hover-background: var(--color-text-alt)
+$block-call-to-action-accent-button-hover-border: $block-call-to-action-accent-button-border
+$block-call-to-action-accent-button-hover-color: var(--color-accent)
 
 // fonts
 $font-infini: "Infini", sans-serif
@@ -54,3 +71,7 @@ $meta-font-family: $body-font-family
 $meta-size-desktop: pxToRem(14)
 $meta-size: pxToRem(12)
 $meta-text-transform: uppercase
+
+// button
+$btn-font-family: $body-font-family
+$btn-text-transform: uppercase
