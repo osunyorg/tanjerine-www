@@ -2,6 +2,10 @@ header#document-header
     @include media-breakpoint-down(desktop)
         border-bottom: $custom-border
 
+    @include media-breakpoint-down(desktop)
+        + .breadcrumb-container
+            margin-top: 0
+
 .breadcrumb-container
     border-top: $custom-border
     border-bottom: $custom-border

@@ -4,7 +4,7 @@ $color-text: #453531
 $color-text-alt: #453531
 $color-background: #D1BEAD
 $color-background-alt: #DED0C4
-$color-border: var(--color-text)
+$color-border: $color-text
 $color-selection: $color-background
 $color-selection-background: $color-text
 $link-color: var(--color-text)
@@ -36,7 +36,7 @@ $btn-text-transform: uppercase
 
 // header
 $header-background: var(--color-background)
-$header-border-bottom-width: 1
+$header-border-bottom-width: 1px
 
 // hero
 $hero-background-color: var(--color-background)
@@ -49,11 +49,11 @@ $footer-color: var(--color-background-alt)
 $footer-background-color: var(--color-text)
 
 // borders
-$border-width: 1
+$border-width: 1px
 $custom-border: var(--border-width) solid var(--color-border)
 
 // button
-$btn-border-width: 1
+$btn-border-width: 1px
 $btn-border-radius: 0
 $btn-padding: pxToRem(12) pxToRem(16)
 

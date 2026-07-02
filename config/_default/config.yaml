@@ -3,6 +3,8 @@ _merge: deep
 params:
   summary:
     position: hero
+  breadcrumb:
+    position: after-hero
   search:
     active: true
   logo:
@@ -11,3 +13,5 @@ params:
   home:
     head:
       title: site
+  share_links:
+    enabled: false
