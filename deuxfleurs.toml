@@ -18,3 +18,7 @@ Cache-Control = "max-age=31536000, no-transform, public"
 from = "/projets/2025-animal-training/index.html"
 to = "/projets/2023-animal-training/"
 
+[[redirects]]
+from = "/identite-visuelle/index.html"
+to = "/offre/identite-visuelle/"
+

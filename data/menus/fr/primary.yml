@@ -15,8 +15,18 @@ items:
   target: "/offre/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Identité visuelle
+    slug: identite-visuelle
+    target: "/offre/identite-visuelle/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/offre/identite-visuelle"
+    file: content/fr/pages/offre/identite-visuelle/_index.html
+  descendants_targets:
+  - "/offre/identite-visuelle/"
   path: "/pages/offre"
   file: content/fr/pages/offre/_index.html
 - title: À propos
