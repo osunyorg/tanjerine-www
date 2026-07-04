@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Projets
-  slug: projets
+- title: Réalisations
+  slug: realisations
   target: "/projets/"
   kind: page
   new_tab: false
@@ -10,24 +10,15 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
+- title: Savoir-faire
+  slug: savoir-faire
+  target: "/offre/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
-- title: Personnes
-  slug: personnes
-  target: "/personnes/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
+  path: "/pages/offre"
+  file: content/fr/pages/offre/_index.html
 - title: À propos
   slug: a-propos
   target: "/a-propos/"
@@ -37,4 +28,22 @@ items:
   descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
+- title: Personnes
+  slug: personnes
+  target: "/personnes/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Organisations
+  slug: organisations
+  target: "/organisations/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
 
