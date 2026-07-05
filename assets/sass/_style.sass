@@ -28,15 +28,19 @@ header#document-header
         .chapter
             .text
                 text-align: center
-                width: 100%
+
     @include media-breakpoint-down(desktop)
-        &--alt_background
+        &--alt_background,
             padding-top: var(--grid-gutter-lg)
             padding-bottom: var(--grid-gutter-lg)
-    @include media-breakpoint-up(desktop)
-        &--alt_background
+
+    @include in-page-without-sidebar
+        &--alt_background,
             padding-left: var(--grid-gutter-xxl)
             padding-right: var(--grid-gutter-xxl)
+            .chapter
+                .text
+                    width: 100%
 
 .block-call_to_action
     border-top: $custom-border
