@@ -15,3 +15,8 @@ params:
       title: site
   share_links:
     enabled: false
+
+  # SECTIONS
+  projects:
+    index:
+      layout: list
