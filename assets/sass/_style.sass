@@ -21,12 +21,6 @@ header#document-header
     border-top: $custom-border
     border-bottom: $custom-border
 
-.block.pages
-    @include in-page-without-sidebar
-        .top
-            .block-title
-                width: 100%
-
 .block-chapter
     &--alt_background
         border-top: $custom-border
@@ -44,6 +38,12 @@ header#document-header
             padding-top: 3rem
             padding-bottom: 3rem
 
+.block-definitions
+    @include in-page-without-sidebar
+        .definitions
+            details
+                .definition-content
+                    padding-left: 0
 .block-call_to_action
     border-top: $custom-border
     border-bottom: $custom-border
