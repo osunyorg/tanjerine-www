@@ -21,27 +21,28 @@ header#document-header
     border-top: $custom-border
     border-bottom: $custom-border
 
+.block.pages
+    @include media-breakpoint-up(desktop)
+        .top
+            .block-title
+                width: 100%
+
 .block-chapter
     &--alt_background
         border-top: $custom-border
         border-bottom: $custom-border
-        .chapter
-            .text
+        @include media-breakpoint-up(desktop)
+            display: block
+            > *
+                margin-left: auto
+                margin-right: auto
                 text-align: center
-                width: calc(var(--column-width) * 8 + var(--grid-gutter) * 7)
+                width: columns(8)
 
     @include media-breakpoint-down(desktop)
         &--alt_background
             padding-top: 3rem
             padding-bottom: 3rem
-
-    @include in-page-without-sidebar
-        &--alt_background
-            padding-left: 8rem
-            padding-right: 8rem
-            .chapter
-                .text
-                    width: 100%
 
 .block-call_to_action
     border-top: $custom-border
