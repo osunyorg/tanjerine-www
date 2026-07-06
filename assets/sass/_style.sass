@@ -22,9 +22,10 @@ header#document-header
     border-bottom: $custom-border
 
 .block.pages
-    @include media-breakpoint-up(desktop)
-        .block-title
-            width: 100%
+    @include in-page-without-sidebar
+        .top
+            .block-title
+                width: 100%
 
 .block-chapter
     &--alt_background
