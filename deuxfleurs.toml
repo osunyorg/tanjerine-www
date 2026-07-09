@@ -22,3 +22,11 @@ to = "/projets/2023-animal-training/"
 from = "/identite-visuelle/index.html"
 to = "/offre/identite-visuelle/"
 
+[[redirects]]
+from = "/projets/2023-logos/index.html"
+to = "/projets/1-logos/"
+
+[[redirects]]
+from = "/projets/2022-logos/index.html"
+to = "/projets/1-logos/"
+
