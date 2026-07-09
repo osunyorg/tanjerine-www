@@ -21,12 +21,20 @@ header#document-header
     border-top: $custom-border
     border-bottom: $custom-border
 
+.block
+    margin-top: 0
+    margin-bottom: 0
+    border-top: $custom-border
+
 .block-chapter
-    &--alt_background
-        border-top: $custom-border
-        @include media-breakpoint-up(desktop)
+
+    @include in-page-without-sidebar
+        &--alt_background,
             padding-top: 6rem
-            padding-bottom: 6rem            
+            padding-bottom: 6rem
+
+    @include media-breakpoint-up(desktop)
+        &--alt_background          
             display: block
             > *
                 margin-left: auto
@@ -40,19 +48,9 @@ header#document-header
             padding-bottom: 3rem
 
 .block-definitions
-    border-top: $custom-border
     @include in-page-without-sidebar
         .definitions
             details
                 .definition-content
                     padding-left: 0
                     margin-left: 0
-
-.block-gallery
-    border-top: $custom-border
-
-.block-pages
-    border-top: $custom-border
-                    
-.block-call_to_action
-    border-top: $custom-border
