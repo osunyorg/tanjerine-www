@@ -15,18 +15,42 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/projets/2025-larbre-association/index.html"
+to = "/projets/2-larbre-association/"
+
+[[redirects]]
+from = "/projets/print/index.html"
+to = "/projets/support-print/"
+
+[[redirects]]
+from = "/projets/reseaux/index.html"
+to = "/projets/support-web/"
+
+[[redirects]]
+from = "/projets/2024-gabriel-coach-sportif/index.html"
+to = "/projets/3-gabriel-coach-sportif/"
+
+[[redirects]]
 from = "/projets/2025-animal-training/index.html"
-to = "/projets/2023-animal-training/"
+to = "/projets/4-animal-training/"
+
+[[redirects]]
+from = "/projets/2026-zjoe/index.html"
+to = "/projets/8-zjoe/"
+
+[[redirects]]
+from = "/projets/2023-m-a-naturo/index.html"
+to = "/projets/5-m-a-naturo/"
 
 [[redirects]]
 from = "/identite-visuelle/index.html"
 to = "/offre/identite-visuelle/"
 
 [[redirects]]
-from = "/projets/2023-logos/index.html"
-to = "/projets/1-logos/"
+from = "/projets/2023-animal-training/index.html"
+to = "/projets/4-animal-training/"
 
 [[redirects]]
-from = "/projets/2022-logos/index.html"
-to = "/projets/1-logos/"
+from = "/projets/2025-rezoo/index.html"
+to = "/projets/6-rezoo/"
 
