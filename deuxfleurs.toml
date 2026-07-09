@@ -54,3 +54,7 @@ to = "/projets/4-animal-training/"
 from = "/projets/2025-rezoo/index.html"
 to = "/projets/6-rezoo/"
 
+[[redirects]]
+from = "/projets/2026-parlons-training/index.html"
+to = "/projets/9-parlons-training/"
+
