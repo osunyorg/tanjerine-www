@@ -58,4 +58,11 @@ items:
   descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
+- title: Échangeons !
+  slug: echangeons
+  target: https://tally.so/r/WO5jLJ
+  kind: url
+  new_tab: true
+  children: []
+  descendants_targets: []
 
