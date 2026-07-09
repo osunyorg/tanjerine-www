@@ -24,8 +24,9 @@ header#document-header
 .block-chapter
     &--alt_background
         border-top: $custom-border
-        border-bottom: $custom-border
         @include media-breakpoint-up(desktop)
+            padding-top: 6rem
+            padding-bottom: 6rem            
             display: block
             > *
                 margin-left: auto
@@ -35,17 +36,23 @@ header#document-header
 
     @include media-breakpoint-down(desktop)
         &--alt_background
-            padding-top: 6rem
-            padding-bottom: 6rem
+            padding-top: 3rem
+            padding-bottom: 3rem
 
 .block-definitions
+    border-top: $custom-border
     @include in-page-without-sidebar
         .definitions
             details
                 .definition-content
                     padding-left: 0
                     margin-left: 0
+
+.block-gallery
+    border-top: $custom-border
+
+.block-pages
+    border-top: $custom-border
                     
 .block-call_to_action
     border-top: $custom-border
-    border-bottom: $custom-border
