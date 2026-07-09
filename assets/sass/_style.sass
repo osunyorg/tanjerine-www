@@ -26,13 +26,15 @@ header#document-header
     margin-bottom: 0
     border-top: $custom-border
 
-.block-chapter
-
     @include in-page-without-sidebar
-        &--alt_background,
-            padding-top: 6rem
-            padding-bottom: 6rem
+        padding-top: 6rem
+        padding-bottom: 6rem
 
+    @include media-breakpoint-down(desktop)
+        padding-top: 3rem
+        padding-bottom: 3rem
+
+.block-chapter
     @include media-breakpoint-up(desktop)
         &--alt_background          
             display: block
@@ -41,11 +43,6 @@ header#document-header
                 margin-right: auto
                 text-align: center
                 width: columns(8)
-
-    @include media-breakpoint-down(desktop)
-        &--alt_background
-            padding-top: 3rem
-            padding-bottom: 3rem
 
 .block-definitions
     @include in-page-without-sidebar
